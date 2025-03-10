@@ -1,0 +1,6 @@
+print "Enter a string: ";  
+my $string = <STDIN>;  
+chomp($string);  
+
+my $reversed = reverse $string;  
+print "Reversed string: $reversed\n";
